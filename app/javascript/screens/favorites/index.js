@@ -1,12 +1,13 @@
 import React, { Fragment, useState } from 'react';
 import NavbarFooter from '../../components/common/navbar_footer';
+import Discovery from '../../components/common/navbar_footer';
 
-  const FavoritesScreen = () => {
-    return(
-      <Fragment>
-        <NavbarFooter/>
-      </Fragment>
-    );
-  }
+const FavoritesScreen = () => {
+  return(
+    <Fragment>
+      <NavbarFooter/>
+    </Fragment>
+  );
+}
 
-  export default FavoritesScreen;
+export default FavoritesScreen;
