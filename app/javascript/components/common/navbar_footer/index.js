@@ -13,6 +13,7 @@ const ColumnsFullWidth = styled(Columns)`
   width: 100%;
   padding-top: 10px;
 `
+
 const NavbarFooter = () => {
   return (
     <Fragment>
