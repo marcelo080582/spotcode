@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import SearchBar from './search_bar';
 import Categories from '../common/categories';
+import ResultsTabs from '../common/results_tabs'
 import SearchService from '../../services/search';
 import CategoriesService from '../../services/categories';
 import { Columns } from 'react-bulma-components';
@@ -31,6 +32,7 @@ const Search = () => {
           <SearchBar fetchSearch={fetchSearch}/>
         </Columns.Column>
       </Columns>
+      <ResultsTabs albums={albums} artists={artists} songs={songs}/>
       <Categories fetchCategorySearch={fetchCategorySearch}/>
 
     </Fragment>
