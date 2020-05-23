@@ -1,0 +1,15 @@
+pt-BR:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: não pode ficar em branco.
+    attributes:
+      user:
+        email: E-mail
+        name: Nome
+        password: "Senha"
+        password_confirmation: 'Confirmação de senha'
+        remember_me: Lembrar senha
